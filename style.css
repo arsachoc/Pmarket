@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(194, 203, 231);
+}
+
+li{
+    color: rgb(56, 112, 161);
+}
+.acc, .acc2 {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+* {
+    box-sizing: border-box;
+}
+/*permet de mettre plusieurs image en arrièpre plan */   
+.bg-image {
+
+    height: 50%; 
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  /* Images utilisé*/
+  .img1 { background-image: url("pokemon.jpg"); }
+  .img2 { background-image: url("legob.png"); }
+  .img3 { background-image: url("jeuxdexterieur.png"); }
+  .img4 { background-image: url("yugiyob.png"); }
+  .img5 { background-image: url("jeuxdesociétéb.png"); }
+  .img6 { background-image: url("jeuxvidéosb.png"); }
+  
+  /* Position image */
+.bg-text {
+    background-color: rgb(20, 56, 87);
+    background-color: rgb(20, 56, 87);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+.ttt{
+    color: white
+}
+/* permet de coder la nav bar*/ 
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(20, 56, 87);
+}
+  
+.li1 {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(26, 73, 114);
+}
+/*forme la tête du site(logo+titre) */ 
+.logopokemon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h11{
+    text-align: center;
+    font-size: 350%;
+}
+/* permet de faire un arrière plan avec une image dans le main*/
+.main1 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.bg1 {
+    background-image: url("bg1bis.png");
+    background-color: #081549;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* texte dans l'image*/  
+.intro1 {
+    text-align: center;
+    position: absolute;
+    font-size: 150%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(30, 71, 95);
+}
+
+.main2 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg2 {
+    background-image: url("pokemon.jpg");
+    background-color: #081549;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro2 {
+    text-align: center;
+    position: absolute;
+    font-size: 150%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(67, 118, 131);
+}
+
+.main3 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg3 {
+    background-image: url("yugiyob.png");
+    background-color: #081549;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro3 {
+    text-align: center;
+    position: absolute;
+    font-size: 150%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(137, 171, 191);
+}
+
+.main4 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg4 {
+    background-image: url("mangaB.png");
+    background-color: #081549;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro4 {
+    text-align: center;
+    position: absolute;
+    font-size: 150%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(143, 169, 184);
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+/* Crée trois colonne égale */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+  
+
+.colonne:after {
+    content: "";
+    display: table;
+    clear: both;
+}
