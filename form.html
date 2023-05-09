@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html>
+
+<head>
     <link rel="stylesheet" href="style.css">
-    <head>
-        <header>
-            <h1 class="hf">
-                Créé ton compte
-            </h1>
-        </header>
-    </head>
-    <body>
-            <div class="divf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body class="bodyform">
+    <div class="divf">
         <form action="/action_page.php">
-            <label for="prénom">Prénom</label>
-            <input type="text" id="prénom" name="prénom" placeholder="Ton prénom..">
+            <label for="lab">Prénom</label>
+            <input type="text" class="inp" name="prénom" placeholder="Ton prénom..">
 
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" placeholder="Ton nom..">
+            <label for="lab">Nom</label>
+            <input type="text" class="inp" name="nom" placeholder="Ton nom..">
 
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age" placeholder="Ton âge..">
+            <label for="lab">Age</label>
+            <input type="number" class="inp" name="age" placeholder="Ton âge..">
 
-            <label for="Genre">Genre</label>
-            <select id="Genre" name="Genre">
+            <label for="lab">Genre</label>
+            <select class="inp" name="Genre">
                 <option value="Homme">Homme</option>
                 <option value="Femme">Femme</option>
                 <option value="Autre">Autre</option>
             </select>
 
-            <label for="e-mail">E-Mail</label>
-            <input type="email" id="e-mail" name="e-mail" placeholder="Ton addresse e-mail..">
+            <label for="lab">E-Mail</label>
+            <input type="email" class="inp" name="e-mail" placeholder="Ton addresse e-mail..">
 
-            <label for="num">numéro de téléphone</label>
-            <input type="tel" id="num" name="num" placeholder="Ton numéro de téléphone..">
+            <label for="lab">numéro de téléphone</label>
+            <input type="tel" class="inp" placeholder="Ton numéro de téléphone..">
 
 
-            <label for="mdp">Mot de passe</label>
-            <input type="text" id="mdp" name="mdp" placeholder="Ton mot de passe..">
+            <label for="lab">Mot de passe</label>
+            <input type="text" name="mdp" class="inp" placeholder="Ton mot de passe..">
 
-            <label for="cmdp">Mot de passe confirmation</label>
-            <input type="text" id="cmdp" name="cmdp" placeholder="Confirme ton mot de passe..">
+            <label for="lab">Mot de passe confirmation</label>
+            <input type="text" class="inp" name="cmdp" placeholder="Confirme ton mot de passe..">
 
-            <input type="radio" id="cméth" name="cméth" value="1"><label for="cméth">Faire le choix d'avoir que les grandes surfaces</label>
-            <input type="radio" id="cméth" name="cméth" value="2"><label for="cméth">Faire le choix d'avoir que les petits commerces</label>
-            <input type="radio" id="cméth" name="cméth" value="3"><label for="cméth">Faire le choix d'avoir les deux</label>
-            
-  
-            <a href="accueil.html"><input type="submit" value="Submit" ></a>
+            <label for="lab">Choix des sites marchands</label><br>
+            <input type="radio" name="cméth" class="inp" value="1"><label for="lab">Faire le choix d'avoir que les
+                grandes surfaces</label>
+            <input type="radio" name="cméth" class="inp" value="2"><label for="lab">Faire le choix d'avoir que les
+                petits commerces</label>
+            <input type="radio" name="cméth" class="inp" value="3"><label for="lab">Faire le choix d'avoir les
+                deux</label>
+
+
+            <a href="accueil.html"><input type="submit" value="Submit"></a>
         </form>
-            </div>
+    </div>
 
-    </body>
+</body>
+
 </html>
