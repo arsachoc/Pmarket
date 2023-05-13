@@ -292,3 +292,9 @@ form{
   body {
     font-family: 'Kanit', sans-serif;
 }
+
+.h1f{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}

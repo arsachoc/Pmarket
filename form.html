@@ -7,50 +7,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap" rel="stylesheet">
     <title>Form</title>
+    <h1 class="h1f">Formulaire d'inscription
+    </h1>
 </head>
 
 <body class="bodyform">
     <div class="divf">
-        <form action="/action_page.php">
-            <label for="lab">Prénom</label>
-            <input type="text" class="inp" name="prénom" placeholder="Ton prénom..">
-
-            <label for="lab">Nom</label>
-            <input type="text" class="inp" name="nom" placeholder="Ton nom..">
-
-            <label for="lab">Age</label>
-            <input type="number" class="inp" name="age" placeholder="Ton âge..">
-
-            <label for="lab">Genre</label>
-            <select class="inp" name="Genre">
-                <option value="Homme">Homme</option>
-                <option value="Femme">Femme</option>
-                <option value="Autre">Autre</option>
-            </select>
-
-            <label for="lab">E-Mail</label>
-            <input type="email" class="inp" name="e-mail" placeholder="Ton addresse e-mail..">
-
-            <label for="lab">numéro de téléphone</label>
-            <input type="tel" class="inp" placeholder="Ton numéro de téléphone..">
-
-
-            <label for="lab">Mot de passe</label>
-            <input type="text" name="mdp" class="inp" placeholder="Ton mot de passe..">
-
-            <label for="lab">Mot de passe confirmation</label>
-            <input type="text" class="inp" name="cmdp" placeholder="Confirme ton mot de passe..">
-
-            <label for="lab">Choix des sites marchands</label><br>
-            <input type="radio" name="cméth" class="inp" value="1"><label for="lab">Faire le choix d'avoir que les
+        <form action="action.php" method="post">
+            <p>
+                <label for="Prénom">Prénom</label>
+                <input type="text" name="Prénom" placeholder="Ton prénom..">
+            </p>
+            <p>
+                <label for="Nom">Nom</label>
+                <input type="text"  name="Nom" placeholder="Ton nom..">
+            </p>
+            <p>
+                <label for="Age">Age</label>
+                <input type="number"  name="Age" placeholder="Ton âge..">
+            </p>
+            <p>
+                <label for="Genre">Genre</label>
+                <select  name="Genre">
+                    <option value="Homme">Homme</option>
+                    <option value="Femme">Femme</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </p>
+            <p>
+                <label for="E-Mail">E-Mail</label>
+                <input type="email" name="E-Mail" placeholder="Ton addresse e-mail..">
+            </p>
+            <p>
+                <label for="Num">numéro de téléphone</label>
+                <input type="tel" name="Num" placeholder="Ton numéro de téléphone..">
+            </p>
+            <p>
+                <label for="mdp">Mot de passe</label>
+                <input type="text" name="mdp" placeholder="Ton mot de passe..">
+            </p>
+                <label for="mdpc">Mot de passe confirmation</label>
+                <input type="text" name="mdpc" placeholder="Confirme ton mot de passe..">
+            <p>
+                <label for="choix">Choix des sites marchands</label><br>
+                <input type="radio" name="choix"  value="1"><label for="lab">Faire le choix d'avoir que les
                 grandes surfaces</label>
-            <input type="radio" name="cméth" class="inp" value="2"><label for="lab">Faire le choix d'avoir que les
+                <input type="radio" name="choix"  value="2"><label for="lab">Faire le choix d'avoir que les
                 petits commerces</label>
-            <input type="radio" name="cméth" class="inp" value="3"><label for="lab">Faire le choix d'avoir les
+                <input type="radio" name="choix" value="3"><label for="lab">Faire le choix d'avoir les
                 deux</label>
+            </p>
 
 
-            <a href="accueil.html"><input type="submit" value="Submit"></a>
+            <input type="submit" value="Submit">
         </form>
     </div>
 
